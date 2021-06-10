@@ -42,7 +42,7 @@ async def run(event):
     await event.reply(final + "`")
 
 
-@System.on(system_cmd(pattern=r"sibyl (ev|eva|eval|py)"))
+@System.on(system_cmd(pattern=r"nexus (ev|eva|eval|py)"))
 async def run_eval(event):
     cmd = event.text.split(" ", 2)
     cmd = cmd[2] if len(cmd) > 2 else ""
