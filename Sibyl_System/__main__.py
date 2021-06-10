@@ -112,7 +112,7 @@ async def main():
             msg += f"\n**{plugin}**\n\n`{FAILED_TO_LOAD[plugin]}`"
         await System.send_message(Sibyl_logs, msg)
     else:
-        await System.send_message(Sibyl_logs, "I'm up!")
+        await System.send_message(Sibyl_logs, "Ready To Globally Ban Or Federation Ban Some Bad Peoples!")
     await System.run_until_disconnected()
 
 
