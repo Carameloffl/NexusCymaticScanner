@@ -132,7 +132,7 @@ async def scan(event, flags):
         if event.chat.username
         else f"t.me/c/{event.chat.id}/{event.message.id}"
     )
-    await event.reply("Connecting to Nexus Networking Service (NNS) for an Internet Scan")
+    await event.reply("Connecting To Nexus Network Core For An Apocalyptical Scan")
     if req_proof and req_user:
         await replied.forward_to(Sibyl_logs)
         await System.gban(
@@ -175,7 +175,7 @@ async def revive(event):
     ):
         await a.edit("User is not gbanned.")
         return
-    await a.edit("Revert request sent to Sylviorus. This might take 10minutes or so.")
+    await a.edit("Revert request sent to Nexus Network Core. This might take 10 minutes or so.")
 
 
 @System.on(system_cmd(pattern=r"sibyl logs"))
