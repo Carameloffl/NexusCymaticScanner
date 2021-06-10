@@ -193,7 +193,7 @@ async def rmins(event) -> None:
     try:
         u_id = (await System.get_entity(u_id)).id
     except BaseException:
-        await event.reply("Ivalid ID/Username!")
+        await event.reply("Invalid ID/Username!")
     if u_id not in INSPECTORS:
         await System.send_message(event.chat_id, "Is that person even an Inspector?")
         return
