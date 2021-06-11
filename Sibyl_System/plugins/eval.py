@@ -33,7 +33,7 @@ async def run(event):
     elif stderr:
         final = "**Output**:\n`" + stderr
     else:
-        final = "`OwO no output"
+        final = "`task completed succesfully"
     if len(final) > 4096:
         with open("exec.txt", "w+", encoding="utf-8") as f:
             f.write(final)
