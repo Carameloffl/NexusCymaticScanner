@@ -178,7 +178,7 @@ async def revive(event):
     await a.edit("Revert request sent to Nexus Network Core. This might take 10 minutes or so.")
 
 
-@System.on(system_cmd(pattern=r"sibyl logs"))
+@System.on(system_cmd(pattern=r"nexus logs"))
 async def logs(event):
     await System.send_file(event.chat_id, "log.txt")
 
@@ -320,7 +320,7 @@ help_plus = """
 Here is the help for **Main**:
 Commands:
     `scan` - Reply to a message WITH reason to send a request to Inspectors/Sibyl for judgement
-    `approve` - Approve a scan request (Only works in Sibyl System Base)
+    `approve` - Approve a scan request (Only works in Nexus Network Core)
     `revert` or `revive` or `restore` - Ungban ID
     `qproof` - Get quick proof from database for given user id
     `proof` - Get message from proof id which is at the end of gban msg
