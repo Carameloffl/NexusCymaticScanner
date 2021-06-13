@@ -25,7 +25,7 @@ try:
 except BaseException:
     HEROKU = False
 
-json_file = os.path.join(os.getcwd(), "Sibyl_System/elevated_users.json")
+json_file = os.path.join(os.getcwd(), "Sibyl_System.elevated_users.json")
 
 
 @System.on(system_cmd(pattern=r"addenf", allow_inspectors=True))
@@ -285,7 +285,7 @@ async def leave(event) -> None:
         )
     else:
         await System(LeaveChannelRequest(link))
-        await System.send_message(event.chat_id, f"Sibyl has left this [group]({link})")
+        await System.send_message(event.chat_id, f"Nexus Scanner has left this [group]({link})")
 
 
 @System.on(system_cmd(pattern=r"get_redirect ", allow_inspectors=True))
