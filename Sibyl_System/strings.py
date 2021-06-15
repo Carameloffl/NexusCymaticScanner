@@ -1,5 +1,5 @@
 on_string = """
-「 Connected To Nexus System. 」
+「 Cᴏɴɴᴇᴄᴛᴇᴅ Tᴏ Nᴇxᴜs Sʏsᴛᴇᴍ 」
 ◦ Usᴇʀ: {name}
 ◦ Rᴀɴᴋ: {Enforcer}
 """
@@ -8,7 +8,7 @@ on_string = """
 # If you still wanna change it change the regex too
 scan_request_string = """
 $SCAN
-「 Cʏᴍᴀᴛɪᴄ Sᴄᴀɴ Rᴇǫᴜᴇsᴛ! 」
+「 Aᴘᴏᴄᴀʟʏᴘᴛɪᴄᴀʟ Sᴄᴀɴ Rᴇǫᴜᴇsᴛ! 」
 **Eɴғᴏʀᴄᴇʀ:** {enforcer} 
 **Usᴇʀ Sᴄᴀɴɴᴇᴅ:** {spammer}
 **Rᴇᴀsᴏɴ:** `{reason}`
@@ -39,7 +39,7 @@ proof_string = """
          ┗━[DelDog]({url})"""
 
 scan_approved_string = """
-「 Lᴇᴛʜᴀʟ Eʟɪᴍɪɴᴀᴛᴏʀ 」
+「 Aᴘᴏᴄᴀʟʏᴘᴛɪᴄᴀʟ Eʟɪᴍɪɴᴀᴛɪᴏɴ 」
 **Tᴀʀɢᴇᴛ Usᴇʀ:** {scam}
 **Cʀɪᴍᴇ Cᴏᴇғғɪᴄɪᴇɴᴛ:** `Over 300`
 **Rᴇᴀsᴏɴ:** `{reason}`
