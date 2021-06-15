@@ -43,7 +43,7 @@ for load in to_load:
 
 @System.on(system_cmd(pattern=r"status", allow_enforcer=True))
 async def status(event):
-    msg = await event.reply("Connected to Nexus System Servers/n Awaiting Reply......")
+    msg = await event.reply("Connection Status To Database = ✅ \nConnection Status To Servers = ✅ \nAwaiting System Response......")
     time.sleep(1)
     sender = await event.get_sender()
     user_status = "Inspector" if sender.id in INSPECTORS else "Enforcer"
